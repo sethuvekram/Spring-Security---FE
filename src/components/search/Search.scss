@@ -1,0 +1,29 @@
+.search-container {
+    position: relative;
+    margin: 0 10px;
+  
+    input[type="text"] {
+      border: none;
+      border-radius: 5px;
+      padding: 8px 12px;
+      font-size: 16px;
+      width: 200px;
+      transition: all 0.3s ease-in-out;
+  
+      &:focus {
+        outline: none;
+        width: 300px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+      
+    }
+    button{
+        position: absolute;
+        right: 5px;
+        top: 9px;
+    }
+  
+    
+    }
+  

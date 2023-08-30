@@ -1,0 +1,13 @@
+.head {
+  background-color: #636361;
+  color: white;
+  margin: 0;
+
+  .head-container {
+    color: aliceblue;
+    display: flex;
+    padding: 5px 40px;
+    justify-content: end;
+    gap: 40px;
+  }
+}
